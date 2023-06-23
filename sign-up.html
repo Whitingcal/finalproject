@@ -24,24 +24,48 @@
                 <h1>Saddle Up</h1>
                 <h1>Horse Ranch</h1>
             </div>
-            <div id="hero-box">
-                <img id="hero-img" src="images/homepage/home1.jpg" alt="banner">
+            <div id="about-box">
+                <h2>Sign Up/Contact Us</h2>
             </div>
         </div>
         <main class="home-grid">
-            <section class="about-card">
-                <img class="card-img" src="images/aboutus/about3.png" alt="girl on horse">
-                <a class='button' href="about.html">About Us</a>
+            <img class="contact-img" src="images/contactus/contact1.webp" alt="horse picture">
+            <section class="contact-set">
+                <h3>Times & Prices</h3>
+                <li>Sunday: Not Open</li>
+                <li>Monday: 10AM - 4PM</li>
+                <li>Tuesday: 10AM - 4PM</li>
+                <li>Wednesday: 10AM - 4PM</li>
+                <li>Thursday: 10AM - 4PM</li>
+                <li>Friday: 10AM - 4PM</li>
+                <li>Saturday: 11AM - 7PM</li>
             </section>
-            <section class="sign-up-card">
-                <img class="card-img" src="images/contactus/contact2.jpg" alt="horses in field">
-                <a class='button' href="sign-up.html">Sign Up</a>
-            </section>
-            <div id="background"></div>
-            <section class="msg">
-                <h2>Saddle Up!</h2>
-                <p>We made this ranch to provide anyone with the opportunity to learn how to ride a horse. Rexburg and the surounding area have little to no public options for horse riding lessons, yet we've notice a high demand for them. Our mission to change that, and we did! Saddle Up Horse Ranch provides high quality riding lessons at affordable rates. We love riding our horses and wanted to share our passion with others to be able to learn and know why we love it.   </p>
-            </section>
+            <form action="/my-handling-form-page" method="post">
+                <ul>
+                  <li>
+                    <label for="first-name">First Name:</label>
+                    <input type="text" id="first-name" name="user_first-name" />
+                  </li>
+                  <li>
+                    <label for="last-name">Last Name:</label>
+                    <input type="text" id="last-name" name="user_last-name" />
+                  </li>
+                  <li>
+                    <label for="mail">Email:</label>
+                    <input type="email" id="mail" name="user_email" />
+                  </li>
+                  <li>
+                    <img class="card-img" src="images/homepage/home2.jpg" alt="horse picture">
+                  </li>
+                  <li>
+                    <label for="msg">Message:</label>
+                    <textarea id="msg" name="user_message"></textarea>
+                  </li>
+                  <li class="button">
+                    <button type="submit">Send your message</button>
+                  </li>
+                </ul>
+              </form>
         </main>
         <footer>
             <p>Saddle Up &copy; 2023 - Calan Whiting</p>
