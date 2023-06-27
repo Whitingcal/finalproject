@@ -93,6 +93,8 @@ nav a:hover{
 }
 #hero-img{
     width: 85%;
+    border: 5px solid #005200;
+    border-radius: 5px;
 }
 #banner-img{
     display: block;
@@ -107,6 +109,7 @@ nav a:hover{
 }
 .logo {
     width: 80px;
+    margin: 10px;
 }
 #logo_link{
     padding-top: 5px;
@@ -117,8 +120,10 @@ nav a:hover{
     text-align: center;
 }
 .home-grid{
+    margin-top: 20px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
 }
 main section{
     text-align: center;
@@ -127,10 +132,11 @@ main section img {
     box-sizing: border-box;
 }
 #background {
-    height: 725px;
-    background-color: #52deb4;
+    height: 400px;
+    background-color: #92623A;
     grid-column: 1/11;
     grid-row: 4/9;
+    margin-top: 50px;
 }
 .button{
     background-color: #005200;
@@ -138,7 +144,7 @@ main section img {
     text-decoration: none;
     font-size: 18px;
     padding: 15px 30px;
-    border-radius: 5px;
+    border-radius: 50px;
     text-align: center;
 }
 .button:hover{
@@ -146,52 +152,56 @@ main section img {
     color: #005200;
 }
 .about-card, .sign-up-card{
-    margin: 100px 0;
+    margin: 50px 0;
     text-align: center;
+    width: 300px;
 }
 .about-card{
-    grid-column: 2/3;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    grid-column: 2/5;
     grid-row: 1/2;
 }
 .sign-up-card{
-    grid-column: 2/3;
+    margin: 0 auto;
+    grid-column: 2/5;
     grid-row: 2/3;
 }
 .card-img{
     border: 10px solid #005200;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
+    margin-bottom: 20px;
+    border-radius: 5px;
 }
 .card-img{
     width: 100%;
 }
 .msg{
-    background-color: #52deb4;
+    background-color: #D0AA8A;
     line-height: 1.5em;
     padding: 35px;
-    grid-column: 2/10;
+    width: 1000px;
+    grid-column: 2/5;
     grid-row: 5/8;
-    box-shadow: 5px 5px 10px #6f7364;
+    box-shadow: 5px 5px 10px #4c3228;
+    margin-top: 50px;
+    border-radius: 500px;
 }
 .msg h2{
-    color: #276d9f;
+    color: white;
 }
 .msg p{
     color: black;
     font-size: .8em;
     padding-bottom: 15px;
 }
-.home-title{
-    color: #276d9f;
-    font-size: 2em;
-    margin-top: 10px;
-}
 h4{
     color: black;
 }
 footer{
-    background-color: #276d9f;
-    color: #52deb4;
+    background-color: #92623A;
+    color: black;
     padding: 25px 50px;
     margin-top: 200px;
     display: flex;
@@ -199,7 +209,7 @@ footer{
     align-items: center;
 }
 footer a{
-    color: #52deb4;
+    color: black;
     text-decoration: none;
 }
 footer p{
