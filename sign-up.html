@@ -29,43 +29,50 @@
             </div>
         </div>
         <main class="home-grid">
-            <img class="contact-img" src="images/contactus/contact1.webp" alt="horse picture">
+            <div class="contact-img">
+                <img id="contact-img" src="images/contactus/contact1.webp" alt="horse picture">
+            </div>
             <section class="contact-set">
-                <h3>Times & Prices</h3>
-                <li>Sunday: Not Open</li>
-                <li>Monday: 10AM - 4PM</li>
-                <li>Tuesday: 10AM - 4PM</li>
-                <li>Wednesday: 10AM - 4PM</li>
-                <li>Thursday: 10AM - 4PM</li>
-                <li>Friday: 10AM - 4PM</li>
-                <li>Saturday: 11AM - 7PM</li>
+                <h2 class="color"><b>Times & Prices</b></h2>
+                <li><b>Sunday:</b> Not Open</li>
+                <li><b>Monday:</b> 10AM - 4PM</li>
+                <li><b>Tuesday:</b> 10AM - 4PM</li>
+                <li><b>Wednesday:</b> 10AM - 4PM</li>
+                <li><b>Thursday:</b> 10AM - 4PM</li>
+                <li><b>Friday:</b> 10AM - 4PM</li>
+                <li><b>Saturday:</b> 11AM - 7PM</li>
+                <p><b>Single (1 person):</b> $35 per hour</p>
+                <p><b>Double (2 people):</b> $30 per hour/per person</p>
+                <p><b>Monday Special:</b> $30 per hour</p>
             </section>
-            <form action="/my-handling-form-page" method="post">
-                <ul>
-                  <li>
-                    <label for="first-name">First Name:</label>
-                    <input type="text" id="first-name" name="user_first-name" />
-                  </li>
-                  <li>
-                    <label for="last-name">Last Name:</label>
-                    <input type="text" id="last-name" name="user_last-name" />
-                  </li>
-                  <li>
-                    <label for="mail">Email:</label>
-                    <input type="email" id="mail" name="user_email" />
-                  </li>
-                  <li>
-                    <img class="card-img" src="images/homepage/home2.jpg" alt="horse picture">
-                  </li>
-                  <li>
-                    <label for="msg">Message:</label>
-                    <textarea id="msg" name="user_message"></textarea>
-                  </li>
-                  <li class="button">
-                    <button type="submit">Send your message</button>
-                  </li>
-                </ul>
-              </form>
+            <div class="form">
+                <form action="/my-handling-form-page" method="post">
+                    <div class="form-grid">
+                        <div class="list1">
+                            <label class="lable1" for="first-name">Name:</label>
+                            <input type="text" id="first-name" name="user_first-name" />
+                        </div>
+                        <div class="list2">
+                            <label class="lable2" for="last-name">Number:</label>
+                            <input type="tel" id="last-name" name="user_last-name" />
+                        </div>
+                        <div class="list3">
+                            <label class="lable3" for="mail">Email:</label>
+                            <input type="email" id="mail" name="user_email" />
+                        </div>
+                        <div class="list4">
+                            <img class="card-img" src="images/homepage/home2.jpg" alt="horse picture">
+                        </div>
+                        <div class="list5">
+                            <label class="lable5" for="msg">Message:</label>
+                            <textarea id="msg" name="user_message"></textarea>
+                        </div>
+                        <div class="list6">
+                            <button class="button2" type="submit">Send your message</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
         </main>
         <footer>
             <p>Saddle Up &copy; 2023 - Calan Whiting</p>
