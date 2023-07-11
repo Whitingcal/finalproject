@@ -44,7 +44,7 @@ body{
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: "Kalam";
-    color: #D0AA8A;
+    color: white;
   }
 h1{
     font-size: 60px;
@@ -183,6 +183,16 @@ main section img {
     grid-column: 2/5;
     grid-row: 1/2;
 }
+#about-box{
+    text-align: center;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-color: #92623A;
+    border-radius: 75px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 30px;
+}
 .sign-up-card{
     margin: 0 auto;
     grid-column: 2/5;
@@ -315,7 +325,7 @@ h4{
     color: black;
 }
 .person1 h2, .person2 h2, .horse1 h2, .horse2 h2{
-    color: lightgray;
+    color: rgb(231, 231, 231);
 }
 .person1{
     grid-column: 1/6;
@@ -383,7 +393,7 @@ h4{
     border-radius: 5px 0px 0px 5px;
     padding-left: 20px;
     background-color: #92623A;
-    color: lightgray;
+    color: rgb(231, 231, 231);
 }
 .about-div2{
     border: 10px solid #92623A;
@@ -392,7 +402,7 @@ h4{
     border-radius: 0px 5px 5px 0px;
     padding-left: 20px;
     background-color: #92623A;
-    color: lightgray;
+    color: rgb(231, 231, 231);
 }
 .about-div3{
     border: 10px solid #92623A;
@@ -401,7 +411,7 @@ h4{
     border-radius: 5px 0px 0px 5px;
     padding-left: 20px;
     background-color: #92623A;
-    color: lightgray;
+    color: rgb(231, 231, 231);
 }
 .about-div4{
     border: 10px solid #92623A;
@@ -410,7 +420,7 @@ h4{
     border-radius: 0px 5px 5px 0px;
     padding-left: 20px;
     background-color: #92623A;
-    color: lightgray;
+    color: rgb(231, 231, 231);
 }
 footer{
     background-color: #92623A;
